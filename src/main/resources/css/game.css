@@ -1,0 +1,9 @@
+#timer{
+    -fx-fill: orange;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 50;
+    -fx-stroke: white;
+    -fx-stroke-width: 2;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.7), 5, 0, 0, 0);
+}
+

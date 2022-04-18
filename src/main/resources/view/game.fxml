@@ -1,0 +1,19 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.ScrollPane?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<?import main.java.Timer?>
+<ScrollPane fx:id="scrollPane" stylesheets="@../css/game.css" fx:controller="main.java.controllers.Game"
+            xmlns:fx="http://javafx.com/fxml">
+    <VBox fx:id="vBox" alignment="CENTER" spacing="20">
+        <GridPane fx:id="gridPane" alignment="CENTER">
+
+        </GridPane>
+        <Timer fx:id="timer"/>
+    </VBox>
+</ScrollPane>
+

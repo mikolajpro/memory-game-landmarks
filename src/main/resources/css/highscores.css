@@ -1,0 +1,53 @@
+#vBox {
+    -fx-background-image: url(/main/resources/images/bg/bg_blue.png);
+    -fx-background-size: cover;
+    -fx-spacing: 17;
+}
+
+#vBox {
+    -fx-text-fill: white;
+    -fx-font-family: Impact;
+}
+
+.scroll-bar{
+    -fx-background-color: orange;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(darkorange 0.0%, orange 100.0%);
+}
+.table-view .table-column{
+    -fx-alignment:center;
+}
+.table-view .table-cell{
+    -fx-font-weight: bold;
+    -fx-font-size: 25px;
+}
+
+.label {
+    -fx-font-size: 40;
+    -fx-text-fill: white;
+}
+
+
+.button {
+    -fx-background-color: orange;
+    -fx-border-color: white;
+    -fx-border-width: 7;
+    -fx-background-radius: 15;
+    -fx-border-radius: 10;
+    -fx-min-width: 300;
+    -fx-text-fill: white;
+    -fx-font-family: Impact;
+    -fx-font-size: 40;
+
+}
+
+.button:hover {
+    -fx-background-color: #ff4b2b;
+    -fx-cursor: hand;
+}
+

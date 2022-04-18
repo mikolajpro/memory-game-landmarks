@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vBox" stylesheets="@../css/menu.css" alignment="CENTER" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="main.java.controllers.Menu">
+
+    <Button fx:id="newGame" text="NEW GAME" onMouseClicked="#switchToBeforeGame"/>
+    <Button fx:id="highScores" text="HIGHSCORES" onMouseClicked="#switchToHighScores"/>
+    <Button fx:id="exit" text="EXIT" onMouseClicked="#exit"/>
+
+</VBox>

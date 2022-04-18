@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="stackPane" prefHeight="400.0" prefWidth="600.0"
+           stylesheets="@../css/endGame.css"
+           xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="main.java.controllers.EndGame">
+
+    <Pane fx:id="pane"/>
+    <VBox fx:id="vBox" alignment="CENTER" spacing="25">
+        <Label fx:id="label" text="ENTER USERNAME"/>
+        <TextField fx:id="textField" promptText="Username"/>
+        <Label fx:id="instructions"/>
+        <Button fx:id="ok" text="OK" onMouseClicked="#endGame"/>
+    </VBox>
+
+</StackPane>

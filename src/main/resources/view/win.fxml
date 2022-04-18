@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<VBox fx:id="vBox"
+      stylesheets="@../css/win.css"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="main.java.controllers.Win"
+      alignment="CENTER"
+      spacing="10">
+
+    <Text fx:id="text" text="Enter your name to save score"/>
+</VBox>

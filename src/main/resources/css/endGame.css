@@ -1,0 +1,56 @@
+#stackPane{
+    -fx-background-image: url(/main/resources/images/bg/bg_blue.png);
+    -fx-background-size: cover;
+    -fx-spacing: 17;
+}
+
+#pane {
+    -fx-background-color: orange;
+    -fx-border-color: white;
+    -fx-border-width: 7;
+    -fx-background-radius: 15;
+    -fx-border-radius: 10;
+    -fx-max-height: 350;
+    -fx-max-width: 400;
+}
+
+.label{
+    -fx-font-size: 40;
+    -fx-text-fill: white;
+}
+
+#instructions{
+    -fx-font-size: 20;
+    -fx-text-fill: #ff4b2b;
+    -fx-translate-y: -15;
+}
+
+.text-field{
+    -fx-focus-traversable: false;
+    -fx-font-size: 30;
+    -fx-text-fill: #00acff;
+    -fx-font-family: Arial;
+    -fx-max-width: 300;
+}
+
+.button{
+    -fx-background-color: orange;
+    -fx-border-color: white;
+    -fx-border-width: 7;
+    -fx-background-radius: 15;
+    -fx-border-radius: 10;
+    -fx-min-width: 300;
+    -fx-text-fill: white;
+    -fx-font-family: Impact;
+    -fx-font-size: 40;
+    -fx-translate-y: -15;
+}
+
+.button:hover{
+    -fx-background-color: #ff4b2b;
+    -fx-cursor: hand;
+}
+#vBox{
+    -fx-text-fill: white;
+    -fx-font-family: Impact;
+}

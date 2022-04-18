@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vBox" alignment="CENTER" spacing="40" stylesheets="@../css/highscores.css"
+      xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="main.java.controllers.Highscores">
+
+    <StackPane>
+
+        <TableView fx:id="tableView" maxWidth="600" editable="false">
+            <columns>
+                <TableColumn fx:id="score" editable="false" prefWidth="300" sortType="DESCENDING" text="SCORE"/>
+                <TableColumn fx:id="name" prefWidth="300" text="NAME"/>
+            </columns>
+        </TableView>
+    </StackPane>
+    <Button id="back" onMouseClicked="#switchToMenu" text="BACK"/>
+</VBox>
